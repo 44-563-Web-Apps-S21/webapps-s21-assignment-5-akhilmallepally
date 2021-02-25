@@ -22,6 +22,9 @@
     .Thumbails:hover {
         box-shadow: 0 0 1px 1px red;
     }
+    .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color:rgb(224, 246, 255);
+  }
 </style>
 </head>
 <body>
@@ -66,6 +69,56 @@
 </div>
 
 
+  
+  <table class="table table-bordered table-striped table-hover table-condensed">
+      <caption style="caption-side: top;">Plant, City & food.</caption>
+          <thead>
+              <tr>
+                  <th scope="col">Letter</th>
+                  <th scope="col">Plant</th>
+                  <th scope="col">City</th>
+                  <th scope="col">Food</th>    
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <th scope="row">M</th>
+                  <td>Magnolia</td>
+                  <td>Manchester</td>
+                  <td>Moong Dal</td>
+              </tr>
+              <tr>
+                  <th scope="row">A</td>
+                  <td>Acalypha</td>
+                  <td>Ahmedabad</td>
+                  <td>Acorn Squash</td>  
+              </tr>
+              <tr>
+                  <th scope="row">L</th>
+                  <td>Legousia</td>
+                  <td>Las Vegas</td>
+                  <td>Lasagna</td>  
+              </tr>
+              <tr>
+                  <th scope="row">L</th>
+                  <td>Leucopogon</td>
+                  <td>Los Angeles</td>
+                  <td>Lobster</td>  
+              </tr>
+              <tr>
+                  <th scope="row">E</th>
+                  <td>Ehretia</td>
+                  <td>El Monte</td>
+                  <td>Egg Salad</td>  
+              </tr>
+              <tr>
+                  <th scope="row">P</th>
+                  <td>Phormium</td>
+                  <td>Nuggets</td>
+                  <td>New York</td>
+              </tr>
+          </tbody>
+      </table>
 
 </body>
 </html>
