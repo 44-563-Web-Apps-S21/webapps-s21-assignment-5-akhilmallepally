@@ -8,6 +8,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    .img-responsive, .img-thumbnail  {
+        width: 30%;
+        height: auto;
+    }
+    .img-thumbnail{
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 100px;
+    }
+    .Thumbails:hover {
+        box-shadow: 0 0 1px 1px red;
+    }
+</style>
 </head>
 <body>
 
@@ -38,6 +53,16 @@
     reducing the size of the webpage, the pixels start reducing. Since the breakpoint of <i>col-md</i>
     is 768px(which is higher than <i>col-sm-2</i>), it is stacked vertically first.
  </p>
+</div>
+<div class = "images">
+    <img src="acalypha.jpg" class="img-responsive" alt="Responsive image" width="450" height="450">
+    <img src="legousia.jpg" class="img-responsive" alt="Responsive image" width="450" height="450">
+    <img src="ehretia.jpg" class="img-responsive" alt="Responsive image" width="450" height="450">
+</div>
+<div class = "images">
+    <img src="acalypha.jpg" class="img-thumbnail" alt="Responsive image" width="250" height="250">
+    <img src="legousia.jpg" class="img-thumbnail" alt="Responsive image" width="250" height="250">
+    <img src="ehretia.jpg" class="img-thumbnail" alt="Responsive image" width="250" height="250">  
 </div>
 
 
